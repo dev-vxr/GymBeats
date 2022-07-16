@@ -134,6 +134,10 @@ button:focus {
     color: #ffc18e !important;
 }
 
+.bi-three-dots {
+    color: #fff;
+}
+
 .vl {
     border-right: 1px solid #fff;
 }

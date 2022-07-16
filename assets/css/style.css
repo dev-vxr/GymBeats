@@ -86,7 +86,6 @@ button:focus {
     color: #000;
 }
 
-
 /*navbar*/
 
 .nav-active {
@@ -241,6 +240,10 @@ button:focus {
     width: 300px;
     height: 300px;
     background-color: #ffffee56;
+}
+
+.service .paragraph {
+    color: #ffffffa8;
 }
 
 .wave-2 {

@@ -38,11 +38,3 @@ scroll.reveal('.left', {
   interval: 500,
   scale: 1
 })
-
-scroll.reveal('.right', {
-  origin: 'right',
-  distance: '25px',
-  duration: 1000,
-  interval: 500,
-  scale: 1
-})

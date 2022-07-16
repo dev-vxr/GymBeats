@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap');
+
+:root {
+    --sign-button: #e97a7a;
+    --register-button: #ffefef;
+    --df-color: #303030;
+    /*font-familly*/
+    --Comfortaa: 'Comfortaa', cursive;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--df-color);
+    font-family: var(--Comfortaa);
+    background: url(/assets/img/sign-in.png);
+    background-size: cover;
+}
+
+.background-radial-gradient {
+    background-color: hsl(218, 41%, 15%);
+    background-image: radial-gradient(650px circle at 0% 0%,
+            hsl(218, 41%, 35%) 15%,
+            hsl(218, 41%, 30%) 35%,
+            hsl(218, 41%, 20%) 75%,
+            hsl(218, 41%, 19%) 80%,
+            transparent 100%),
+        radial-gradient(650px circle at 100% 100%,
+            hsl(218, 41%, 45%) 15%,
+            hsl(218, 41%, 30%) 35%,
+            hsl(218, 41%, 20%) 75%,
+            hsl(218, 41%, 19%) 80%,
+            transparent 100%);
+}
+
+
+.bg-glass {
+    background-color: hsla(0, 0%, 100%, 0.486) !important;
+    backdrop-filter: blur(1px);
+}
+
+input {
+    border: 2px solid #3030303f !important;
+    border-radius: 15px !important;
+    padding: 15px 15px !important;
+    color: #21212148;
+}
+
+input:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.btn-primary {
+    border: 2px solid #fd7373bb;
+    width: 100%;
+    background-color: var(--sign-button);
+    box-shadow: 0 0 50px var(--sign-button);
+}
+
+.btn-primary:hover {
+    border: 2px solid #fd7373bb;
+    background-color: #fd1d1dbb;
+}
+
+.bi {
+    color: #fff;
+    border: 3px solid #3030303f;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 15px 20px;
+    transition: background .5s !important;
+}
+
+.bi:hover {
+    backdrop-filter: blur(5px);
+    transition: .5s;
+}
+
+.bi-facebook:hover {
+    background-color: #3b5898bb;
+}
+
+.bi-google:hover {
+    background-color: #dc4e41bb;
+}
+
+.bi-instagram:hover {
+    background-color: #3f729bbb;
+    background-image:linear-gradient(45deg, #405de6bb, #5851dbbb, #833ab4bb, #c13584bb, #e1306cbb, #fd1d1dbb);
+}
+
+.bi-github:hover {
+    background-color: #001722bb;
+}

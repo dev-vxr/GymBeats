@@ -10,6 +10,12 @@ window.onscroll = function () {
   }
 }
 
+//sccrollspy
+
+const scrollSpy = new bootstrap.ScrollSpy(document.body, {
+  target: '#navbar-example'
+})
+
 
 //scroll reveal
 

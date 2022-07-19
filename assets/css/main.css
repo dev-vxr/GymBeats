@@ -53,6 +53,10 @@ body {
     color: #fff;
 }
 
+.nav-link:hover {
+    color: #212121a1;
+}
+
 .nav-link.active {
     background-color: #00aa99bb !important;
 }

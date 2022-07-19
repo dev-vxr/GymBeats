@@ -14,7 +14,7 @@
     --indigo-hover: #6610f288;
     /*background-colors*/
     --nav-background: #22222218;
-    --about-background: #ffad7e8c;
+    --about-background: #ffe17e8c;
     /*height*/
     --df-height: 100vh;
     --phone-height: 100%;
@@ -232,6 +232,7 @@ button:focus {
     background-color: var(--about-background);
     color: #212121;
     border-radius: 3px;
+    backdrop-filter: blur(5px);
 }
 
 /*service*/
@@ -247,8 +248,8 @@ button:focus {
 }
 
 .service-logo {
-    width: 300px;
-    height: 300px;
+    width: 330px;
+    height: 330px;
     background-color: #ffffee56;
 }
 
@@ -289,9 +290,6 @@ button:focus {
 
 .contact-container-infos {
     width: 100%;
-    border: 1px solid #f1f1f1b4;
-    border-radius: 15px;
-    box-shadow: 0 0 40px #c4c4c494;
     color: #212121;
 }
 
@@ -335,10 +333,12 @@ button:focus {
 }
 
 .footer-heading {
-    font-size: 18px;
+    font-size: 35px;
     margin-bottom: 30px;
     color: #fff;
+    font-family: var(--yellowtail);
     position: relative;
+    cursor: pointer;
 }
 
 .footer-heading::after {
@@ -384,7 +384,7 @@ button:focus {
 
 
     .offcanvas-lg {
-        width: 60% !important;
+        width: 70% !important;
     }
 
     .offcanvas-header {
@@ -434,6 +434,10 @@ button:focus {
         transform: rotate(-76deg);
         z-index: -1;
         opacity: .6;
+    }
+
+    .about-col {
+        backdrop-filter: blur(2px);
     }
 
     .about,

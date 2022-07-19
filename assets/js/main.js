@@ -21,7 +21,7 @@ const scrollSpy = new bootstrap.ScrollSpy(document.body, {
 
 const scroll = ScrollReveal();
 
-scroll.reveal('.home-col, .social', {
+scroll.reveal('.home-col, .slogan, .social', {
   origin: 'bottom',
   distance: '50px',
   duration: 2500,

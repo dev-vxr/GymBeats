@@ -72,6 +72,7 @@ button:focus {
     color: #ffae6c;
     position: relative;
 }
+
 .service-subtitle::after {
     position: absolute;
     bottom: -4px;
@@ -139,13 +140,16 @@ button:focus {
     color: #ffc18e !important;
 }
 
-
 .bi-three-dots {
     color: #fff;
 }
 
 .vl {
     border-right: 1px solid #fff;
+}
+
+.btn-outline-dark {
+    border: 2px solid #fff8f865;
 }
 
 /*home*/
@@ -250,7 +254,6 @@ button:focus {
 .service-logo {
     width: 330px;
     height: 330px;
-    background-color: #ffffee56;
 }
 
 .service .paragraph {
